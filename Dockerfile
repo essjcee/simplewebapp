@@ -8,4 +8,4 @@ EXPOSE 80
 EXPOSE 443
 WORKDIR /app
 COPY --from=build /app/out ./
-ENTRYPOINT ["dotnet", "SimpleWebApp.dll"]
+ENTRYPOINT ["dotnet", "simpleWebApp.dll"]
